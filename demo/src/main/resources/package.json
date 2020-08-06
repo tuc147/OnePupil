@@ -1,0 +1,17 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "Samuel Feladu",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
