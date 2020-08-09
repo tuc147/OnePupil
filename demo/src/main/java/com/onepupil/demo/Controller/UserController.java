@@ -55,6 +55,11 @@ public class UserController {
 
 
     }
+    @DeleteMapping("/users/{email}")
+    public void deleteUser(@PathVariable String email){
+        Optional<user> delete = repo.findByEmail(email);
+        repo.deleteByEmail(email);          
+    }
         
 
 }
